@@ -1,0 +1,51 @@
+# varに正の整数を代入
+var = 3  # 任意の正の整数を設定
+
+# 条件分岐
+if var % 3 == 0 and var % 5 == 0:
+    print("FizzBuzz")
+elif var % 3 == 0:
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:
+    print(var)
+
+ # varに正の整数を代入
+var = 5  # 任意の正の整数を設定
+
+# 条件分岐
+if var % 3 == 0 and var % 5 == 0:
+    print("FizzBuzz")
+elif var % 3 == 0:
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:
+    print(var)   
+
+# varに正の整数を代入
+var = 15  # 任意の正の整数を設定
+
+# 条件分岐
+if var % 3 == 0 and var % 5 == 0:
+    print("FizzBuzz")
+elif var % 3 == 0:
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:
+    print(var)
+    
+ # varに正の整数を代入
+var = 4  # 任意の正の整数を設定
+
+# 条件分岐
+if var % 3 == 0 and var % 5 == 0:
+    print("FizzBuzz")
+elif var % 3 == 0:
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:
+    print(var)   
