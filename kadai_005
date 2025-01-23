@@ -1,0 +1,13 @@
+#上辺：10cm
+#下辺：20cm
+#高さ：5cm
+
+#公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
+
+print((10+20)*5/2)
+
+number1=10
+number2=20
+number3=5
+
+print((number1+number2)*number3/2)
