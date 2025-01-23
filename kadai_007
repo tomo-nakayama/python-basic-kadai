@@ -1,0 +1,29 @@
+# リストの作成
+array = [
+    "月曜日は晴れです",
+    "火曜日は雨です",
+    "水曜日は晴れです",
+    "木曜日は晴れです",
+    "金曜日は曇りです",
+    "土曜日は曇りのち雨です",
+    "日曜日は雷雨です"
+]
+
+# ディクショナリの作成
+dictionary = {
+    "mon": "晴れ",
+    "tue": "雨",
+    "wed": "晴れ",
+    "thu": "晴れ",
+    "fri": "曇り",
+    "sat": "曇りのち雨",
+    "sun": "雷雨"
+}
+
+# リストから水曜日の天気予報を取得して出力
+wednesday_from_array = array[2]  # リストのインデックスは0始まり
+print("リストから取得した水曜日の天気予報:", wednesday_from_array)
+
+# ディクショナリから水曜日の天気予報を取得して出力
+wednesday_from_dictionary = dictionary["wed"]
+print("ディクショナリから取得した水曜日の天気予報:", wednesday_from_dictionary)
